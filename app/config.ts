@@ -1,0 +1,1 @@
+export const cdn = 'https://r2cdn.hhn.fr';
