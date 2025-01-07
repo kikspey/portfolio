@@ -11,14 +11,12 @@ export const StyledNavbar = styled.nav`
   margin: 5rem 0;
 
   @media (max-width: 36rem) {
-   margin-top: 0;
+    margin-top: 0;
   }
 `;
 
-export const Navlogo = styled.div`
+export const NavTitle = styled.div`
   position: relative;
-  width: 6.5rem;
-  height: 100%;
 `;
 
 export const NavbarLinks = styled.ul`

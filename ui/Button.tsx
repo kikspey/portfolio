@@ -36,7 +36,15 @@ const buttonVariants = {
     `,
     sm: css``,
     lg: css``,
-    icon: css``,
+    icon: css`
+      padding: 0.5rem;
+
+      span {
+        svg {
+          margin-right: 0 !important;
+        }
+      }
+    `,
   },
 };
 
@@ -62,11 +70,19 @@ const ButtonBase = styled.button<{
     opacity: 0.5;
   }
 
+  &:active {
+    transform: scale(0.98);
+  }
+
+  &:hover {
+    filter: brightness(0.95);
+  }
+
   span {
     display: flex;
     align-items: center;
     height: 1.5rem;
-    
+
     svg {
       margin-right: 0.5rem;
     }
