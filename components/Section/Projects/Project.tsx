@@ -1,5 +1,12 @@
 import { cdn } from "@/app/config";
-import { StyledProject, StyledProjectContent, StyledProjectDescription, StyledProjectImage, StyledProjectLink, StyledProjectTitle } from "./Projects.styles";
+import {
+  ProjectContainer,
+  ProjectContent,
+  ProjectDescription,
+  ProjectImage,
+  ProjectLink,
+  ProjectTitle,
+} from "./Projects.styles";
 import { ChevronRight } from "lucide-react";
 
 interface ProjectProps {
@@ -11,14 +18,16 @@ interface ProjectProps {
 
 const Project = (props: ProjectProps) => {
   return (
-    <StyledProject>
-      <StyledProjectImage src={cdn + props.img} />
-      <StyledProjectContent>
-        <StyledProjectTitle>{props.title}</StyledProjectTitle>
-        <StyledProjectDescription>{props.description}</StyledProjectDescription>
-      </StyledProjectContent>
-      <StyledProjectLink href={props.link}><ChevronRight /></StyledProjectLink>
-    </StyledProject>
+    <ProjectContainer>
+      <ProjectImage src={cdn + props.img} />
+      <ProjectContent>
+        <ProjectTitle>{props.title}</ProjectTitle>
+        <ProjectDescription>{props.description}</ProjectDescription>
+      </ProjectContent>
+      <ProjectLink href={props.link}>
+        <ChevronRight />
+      </ProjectLink>
+    </ProjectContainer>
   );
 };
 

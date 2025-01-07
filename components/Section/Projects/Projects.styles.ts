@@ -2,18 +2,18 @@
 
 import styled from "styled-components";
 
-export const StyledProjects = styled.div`
+export const ProjectsContainer = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
 `;
 
-export const StyledProjectLink = styled.a`
+export const ProjectLink = styled.a`
   margin-left: auto;
   color: var(--gray);
 `;
 
-export const StyledProject = styled.div`
+export const ProjectContainer = styled.div`
   display: flex;
   align-items: center;
   width: 100%;
@@ -32,13 +32,13 @@ export const StyledProject = styled.div`
   }
 
   &:hover {
-    ${StyledProjectLink} {
+    ${ProjectLink} {
       transform: rotate(-45deg);
     }
   }
 `;
 
-export const StyledProjectImage = styled.img`
+export const ProjectImage = styled.img`
   width: 3rem;
   height: 3rem;
   padding: 0.2rem;
@@ -47,18 +47,18 @@ export const StyledProjectImage = styled.img`
   border: 1px solid var(--border);
 `;
 
-export const StyledProjectContent = styled.div`
+export const ProjectContent = styled.div`
   display: flex;
   flex-direction: column;
   margin-left: 1rem;
 `;
 
-export const StyledProjectTitle = styled.h3`
-  font-size: 1rem;
+export const ProjectTitle = styled.h3`
+  font-size: 1.1rem;
   color: var(--text-color);
 `;
 
-export const StyledProjectDescription = styled.p`
+export const ProjectDescription = styled.p`
   font-size: 0.9rem;
   color: var(--gray);
 `;
