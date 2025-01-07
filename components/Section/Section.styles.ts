@@ -15,5 +15,5 @@ export const SectionTitle = styled.h3`
   margin-bottom: 1rem;
   font-size: 1.3rem;
   font-weight: 700;
-  color: var(--text-color);
+  color: var(--section-title);
 `;

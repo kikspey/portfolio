@@ -2,6 +2,7 @@ import Header from "@/components/Section/Header/Header";
 import Navbar from "@/components/Navbar/Navbar";
 import About from "@/components/Section/About/About";
 import Section from "@/components/Section/Section";
+import Projects from "@/components/Section/Projects/Projects";
 
 export default function Home() {
   return (
@@ -9,8 +10,10 @@ export default function Home() {
       <Navbar />
       <Section title="Hi, I'm Kilian Peyron" component={<Header />} />
       <Section title="About" component={<About/>} />
-      <Section title="Projects" />
+      <Section title="Projects" component={<Projects />} />
       <Section title="Blog" />
     </>
   );
 }
+
+/* Website open-source / Change theme button / Positions (Carreer) */
