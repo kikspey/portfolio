@@ -9,11 +9,15 @@ export const StyledNavbar = styled.nav`
   height: 3rem;
   width: 100%;
   margin: 5rem 0;
+
+  @media (max-width: 36rem) {
+   margin-top: 0;
+  }
 `;
 
 export const Navlogo = styled.div`
   position: relative;
-  width: 7rem;
+  width: 6.5rem;
   height: 100%;
 `;
 
@@ -27,8 +31,4 @@ export const NavbarLinks = styled.ul`
 export const NavbarLink = styled.li`
   color: var(--gray);
   cursor: pointer;
-
-  &:not(:last-child) {
-    margin-right: 1rem;
-  }
 `;

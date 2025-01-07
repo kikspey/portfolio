@@ -1,7 +1,8 @@
 :root {
   --background: #ffffff;
-  --foreground: #FDFDFD;
+  --foreground: #fdfdfd;
   --section-title: black;
+  --main-button: black;
   --text-color: #292929;
   --grey: #f0f0f0;
   --border: #f1f2f6;
@@ -17,6 +18,7 @@
     --background: #121212;
     --foreground: #191919;
     --section-title: white;
+    --main-button: white;
     --text-color: #cccccc;
     --grey: #1a1a1a;
     --border: #1a1a1a;
@@ -43,7 +45,8 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  transition: all .2s;
+  font-family: Figtree, sans-serif;
+  transition: all 0.2s;
 }
 
 img {

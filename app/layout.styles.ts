@@ -2,9 +2,7 @@
 
 import styled from "styled-components";
 
-export const StyledBackground = styled.div`
-  
-`;
+export const StyledBackground = styled.div``;
 
 export const Container = styled.div`
   display: flex;
@@ -14,4 +12,9 @@ export const Container = styled.div`
   max-width: 36rem;
   margin: 0 auto;
   z-index: 10;
+
+  @media (max-width: 36rem) {
+    max-width: 100%;
+    padding: 2rem;
+  }
 `;
