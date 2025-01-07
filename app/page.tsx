@@ -5,16 +5,17 @@ import Section from "@/components/Section/Section";
 import Projects from "@/components/Section/Projects/Projects";
 import Career from "@/components/Section/Career/Career";
 import Footer from "@/components/Footer/Footer";
+import Articles from "@/components/Section/Articles/Articles";
 
 export default function Home() {
   return (
     <>
       <Navbar />
       <Section title="Hi, I'm Kilian Peyron" component={<Header />} />
-      <Section title="About" component={<About/>} />
+      <Section title="About" component={<About />} />
       <Section title="Projects" component={<Projects />} />
       <Section title="Career" component={<Career />} />
-      <Section title="Blog" />
+      <Section title="Articles" component={<Articles />} />
       <Footer />
     </>
   );
