@@ -1,1 +1,1 @@
-export const cdn = 'https://r2cdn.hhn.fr';
+export const cdn = 'https://cdn.xra.fr';

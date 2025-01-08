@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],
   images: {
-    domains: ['r2cdn.hhn.fr'],
+    domains: ['cdn.xra.fr'],
   },
   compiler: {
     styledComponents: true,

@@ -7,13 +7,13 @@ const Projects = () => {
       <Project
         title="Leitlearn"
         description="Description 1"
-        img="/hhn/portfolio/leitlearn-portfolio.avif"
+        img="/xra/portfolio/leitlearn-portfolio.avif"
         link="link1"
       />
       <Project
         title="HyperID"
         description="Description 1"
-        img="/hhn/portfolio/hyperid-portfolio.avif"
+        img="/xra/portfolio/hyperid-portfolio.avif"
         link="link1"
       />
     </ProjectsContainer>
