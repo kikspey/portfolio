@@ -38,13 +38,18 @@ export const ProjectContainer = styled.div`
   }
 `;
 
-export const ProjectImage = styled.img`
+export const ProjectImage = styled.div`
+  position: relative;
   width: 3rem;
   height: 3rem;
-  padding: 0.2rem;
   border-radius: 50%;
   background: var(--background);
   border: 1px solid var(--border);
+
+  img {
+    padding: 0.2rem;
+    border-radius: 50%;
+  }
 `;
 
 export const ProjectContent = styled.div`
