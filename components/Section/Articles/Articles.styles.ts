@@ -12,6 +12,12 @@ export const ArticlesContainer = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
+
+  a {
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+  }
 `;
 
 export const ArticleContainer = styled.div`
@@ -23,10 +29,6 @@ export const ArticleContainer = styled.div`
   border: 1px solid var(--border);
   border-radius: 0.5rem;
   cursor: pointer;
-
-  &:not(:last-child) {
-    margin-bottom: 1rem;
-  }
 
   &:active {
     transform: scale(0.98);

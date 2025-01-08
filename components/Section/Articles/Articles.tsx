@@ -1,11 +1,42 @@
 import Article from "./Article";
 import { ArticlesContainer } from "./Articles.styles";
+import fs from "fs";
+import path from "path";
+import matter from "gray-matter";
+import Link from "next/link";
+
+const articlesDirectory = path.join(process.cwd(), "content/blog");
+
+const getAllPosts = () => {
+  const fileNames = fs.readdirSync(articlesDirectory);
+  const allPosts = fileNames.map((fileName) => {
+    const fullPath = path.join(articlesDirectory, fileName);
+    const fileContents = fs.readFileSync(fullPath, "utf8");
+    const { data, content } = matter(fileContents);
+
+    return {
+      slug: fileName.replace(/\.mdx?$/, ""),
+      data,
+      content,
+    };
+  });
+
+  return allPosts;
+};
 
 const Articles = () => {
+  const posts = getAllPosts();
+
   return (
     <ArticlesContainer>
-        <Article title="Article 1" date="2025"/>
-        <Article title="Article 2" date="2025"/>
+      {posts.map((post) => (
+        <Link href={`/blog/${post.slug}`} key={post.slug}>
+          <Article
+            title={post.data.title}
+            date={new Date(post.data.date).toLocaleDateString()}
+          />
+        </Link>
+      ))}
     </ArticlesContainer>
   );
 };
