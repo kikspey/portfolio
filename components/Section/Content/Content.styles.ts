@@ -16,5 +16,9 @@ export const ContentPart = styled.div`
 
   a {
     text-decoration: underline;
+
+    &:hover {
+      color: var(--hover-color);
+    }
   }
 `;

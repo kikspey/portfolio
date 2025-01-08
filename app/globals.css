@@ -2,6 +2,7 @@
   --background: #ffffff;
   --foreground: #f9fafb;
   --section-title: #000000;
+  --hover-color: #000000;
   --main-button: #1f2937;
   --text-color: #374151;
   --grey: #e5e7eb;
@@ -17,6 +18,7 @@
   --background: #0a0a0a;
   --foreground: #121212;
   --section-title: #e5e5e5;
+  --hover-color: #e5e5e5;
   --main-button: #ffffff;
   --text-color: #b3b3b3;
   --grey: #1c1c1c;
