@@ -16,7 +16,7 @@ const buttonVariants = {
   variant: {
     default: css`
       background-color: var(--main-button);
-      border: 1px solid var(--border);
+      border: 1px solid var(--main-button);
       color: var(--background);
     `,
     secondary: css`
