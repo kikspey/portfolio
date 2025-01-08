@@ -7,7 +7,7 @@ import {
   NavTitle,
 } from "./Navbar.styles";
 import { Button } from "@/ui/Button";
-import { AtSign, FileUser } from "lucide-react";
+import { AtSign, ScrollText } from "lucide-react";
 import Link from "next/link";
 
 const Navbar = () => {
@@ -17,14 +17,16 @@ const Navbar = () => {
       <NavbarLinks>
         <NavbarLink>
           <Link href="https://read.cv/kilianpeyron" passHref>
-            <Button icon={<FileUser width={20} height={20} />}>Resume</Button>
+            <Button icon={<ScrollText width={20} height={20} />}>Resume</Button>
           </Link>
         </NavbarLink>
         <NavbarLink>
           <Link href="mailto:kilian@hhn.fr" passHref>
-            <Button icon={<AtSign />} variant="secondary">
-              Contact me
-            </Button>
+            <Button
+              icon={<AtSign width={20} height={20} />}
+              variant="secondary"
+              size="icon"
+            />
           </Link>
         </NavbarLink>
       </NavbarLinks>

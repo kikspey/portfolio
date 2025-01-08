@@ -81,7 +81,6 @@ const ButtonBase = styled.button<{
   span {
     display: flex;
     align-items: center;
-    height: 1.5rem;
 
     svg {
       margin-right: 0.5rem;

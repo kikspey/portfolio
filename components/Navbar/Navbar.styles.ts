@@ -21,7 +21,7 @@ export const NavTitle = styled.div`
 
 export const NavbarLinks = styled.ul`
   display: flex;
-  gap: 1rem;
+  gap: .7rem;
   margin-left: auto;
   list-style: none;
 `;
