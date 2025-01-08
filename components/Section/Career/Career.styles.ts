@@ -47,4 +47,11 @@ export const JobCompanyLogo = styled.div`
   min-width: 3rem;
   width: 3rem;
   height: 3rem;
+  background: var(--background);
+  border: 1px solid var(--border);
+  border-radius: 0.4rem;
+
+  img {
+    padding: 0.5rem;
+  }
 `;

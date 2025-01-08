@@ -24,6 +24,7 @@ export const ProjectContainer = styled(Card)`
 export const ProjectImage = styled.div`
   position: relative;
   width: 3rem;
+  min-width: 3rem;
   height: 3rem;
   border-radius: 50%;
   background: var(--background);
@@ -38,10 +39,11 @@ export const ProjectImage = styled.div`
 export const ProjectContent = styled.div`
   display: flex;
   flex-direction: column;
-  margin-left: 1rem;
+  margin: 0 1rem;
 `;
 
 export const ProjectTitle = styled.h3`
+  margin-bottom: 0.2rem;
   font-size: 1.1rem;
   color: var(--text-color);
 `;

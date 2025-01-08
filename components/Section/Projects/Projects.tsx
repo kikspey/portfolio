@@ -6,13 +6,13 @@ const Projects = () => {
     <ProjectsContainer>
       <Project
         title="Leitlearn"
-        description="Description 1"
+        description="Leitlearn is an innovative learning platform that enhances effectiveness through daily repetition for better review."
         img="/xra/portfolio/leitlearn-portfolio.avif"
         link="link1"
       />
       <Project
         title="HyperID"
-        description="Description 1"
+        description="HyperID is a universal digital identity service that allows users to log into all projects within an ecosystem using a single account."
         img="/xra/portfolio/hyperid-portfolio.avif"
         link="link1"
       />
