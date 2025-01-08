@@ -1,29 +1,12 @@
 "use client";
 
 import styled from "styled-components";
+import { Card, CardsContainer } from "../Section.styles";
 
-export const CareerContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-`;
+export const CareerContainer = styled(CardsContainer)``;
 
-export const JobContainer = styled.div`
-  display: flex;
-  width: 100%;
-  padding: 1rem;
-  background: var(--foreground);
-  border: 1px solid var(--border);
-  border-radius: 0.5rem;
-  cursor: pointer;
-
-  &:not(:last-child) {
-    margin-bottom: 1rem;
-  }
-
-  &:active {
-    transform: scale(0.98);
-  }
+export const JobContainer = styled(Card)`
+  align-items: flex-start;
 `;
 
 export const JobContent = styled.div`

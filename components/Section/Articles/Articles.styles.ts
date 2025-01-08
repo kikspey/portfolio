@@ -1,6 +1,7 @@
 "use client";
 
 import styled from "styled-components";
+import { Card, CardsContainer } from "../Section.styles";
 
 export const ArticleDateIcon = styled.div`
   svg {
@@ -8,11 +9,7 @@ export const ArticleDateIcon = styled.div`
   }
 `;
 
-export const ArticlesContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-
+export const ArticlesContainer = styled(CardsContainer)`
   a {
     &:not(:last-child) {
       margin-bottom: 1rem;
@@ -20,18 +17,9 @@ export const ArticlesContainer = styled.div`
   }
 `;
 
-export const ArticleContainer = styled.div`
-  display: flex;
-  align-items: center;
-  width: 100%;
-  padding: 1rem;
-  background: var(--foreground);
-  border: 1px solid var(--border);
-  border-radius: 0.5rem;
-  cursor: pointer;
-
-  &:active {
-    transform: scale(0.98);
+export const ArticleContainer = styled(Card)`
+  svg {
+    transition: all 0.2s;
   }
 
   &:hover {

@@ -1,35 +1,18 @@
 "use client";
 
 import styled from "styled-components";
+import { Card, CardsContainer } from "../Section.styles";
 
-export const ProjectsContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-`;
+export const ProjectsContainer = styled(CardsContainer)``;
 
 export const ProjectLink = styled.a`
   margin-left: auto;
   color: var(--gray);
+  transition: all 0.2s;
 `;
 
-export const ProjectContainer = styled.div`
-  display: flex;
-  align-items: center;
-  width: 100%;
-  padding: 1rem;
-  background: var(--foreground);
-  border: 1px solid var(--border);
-  border-radius: 0.5rem;
-  cursor: pointer;
-
-  &:not(:last-child) {
-    margin-bottom: 1rem;
-  }
-
-  &:active {
-    transform: scale(0.98);
-  }
+export const ProjectContainer = styled(Card)`
+  flex-direction: row;
 
   &:hover {
     ${ProjectLink} {

@@ -17,3 +17,29 @@ export const SectionTitle = styled.h3`
   font-weight: 700;
   color: var(--section-title);
 `;
+
+export const CardsContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+`;
+
+export const Card = styled.div`
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  background: var(--foreground);
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+  cursor: pointer;
+
+  &:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+
+  &:active {
+    transform: scale(0.98);
+  }
+`;

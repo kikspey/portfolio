@@ -58,6 +58,7 @@ const ButtonBase = styled.button<{
   border-radius: 0.7rem;
   font-weight: 600;
   text-transform: capitalize;
+  transition: all 0.2s;
   cursor: pointer;
 
   ${({ variant, size }) => css`
