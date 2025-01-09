@@ -2,11 +2,17 @@
 
 import styled from "styled-components";
 import { Card, CardsContainer } from "../Section.styles";
+import Link from "next/link";
 
 export const ProjectsContainer = styled(CardsContainer)``;
 
-export const ProjectLink = styled.a`
-  margin-left: auto;
+export const ProjectLink = styled(Link)`
+  &:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+`;
+
+export const ProjectChevronIcon = styled.div`
   color: var(--gray);
   transition: all 0.2s;
 `;
@@ -15,7 +21,7 @@ export const ProjectContainer = styled(Card)`
   flex-direction: row;
 
   &:hover {
-    ${ProjectLink} {
+    ${ProjectChevronIcon} {
       transform: rotate(-45deg);
     }
   }

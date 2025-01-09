@@ -2,6 +2,7 @@
 
 import styled from "styled-components";
 import { Card, CardsContainer } from "../Section.styles";
+import Link from "next/link";
 
 export const ArticleDateIcon = styled.div`
   svg {
@@ -9,11 +10,11 @@ export const ArticleDateIcon = styled.div`
   }
 `;
 
-export const ArticlesContainer = styled(CardsContainer)`
-  a {
-    &:not(:last-child) {
-      margin-bottom: 1rem;
-    }
+export const ArticlesContainer = styled(CardsContainer)``;
+
+export const ArticleLink = styled(Link)`
+  &:not(:last-child) {
+    margin-bottom: 1rem;
   }
 `;
 

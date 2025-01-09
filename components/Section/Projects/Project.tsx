@@ -1,5 +1,6 @@
 import { cdn } from "@/app/config";
 import {
+  ProjectChevronIcon,
   ProjectContainer,
   ProjectContent,
   ProjectDescription,
@@ -19,23 +20,25 @@ interface ProjectProps {
 
 const Project = (props: ProjectProps) => {
   return (
-    <ProjectContainer>
-      <ProjectImage>
-        <Image
-          src={cdn + props.img}
-          alt={props.title}
-          layout="fill"
-          objectFit="contain"
-        />
-      </ProjectImage>
-      <ProjectContent>
-        <ProjectTitle>{props.title}</ProjectTitle>
-        <ProjectDescription>{props.description}</ProjectDescription>
-      </ProjectContent>
-      <ProjectLink href={props.link}>
-        <ChevronRight />
-      </ProjectLink>
-    </ProjectContainer>
+    <ProjectLink href={props.link} passHref>
+      <ProjectContainer>
+        <ProjectImage>
+          <Image
+            src={cdn + props.img}
+            alt={props.title}
+            layout="fill"
+            objectFit="contain"
+          />
+        </ProjectImage>
+        <ProjectContent>
+          <ProjectTitle>{props.title}</ProjectTitle>
+          <ProjectDescription>{props.description}</ProjectDescription>
+        </ProjectContent>
+        <ProjectChevronIcon>
+          <ChevronRight />
+        </ProjectChevronIcon>
+      </ProjectContainer>
+    </ProjectLink>
   );
 };
 

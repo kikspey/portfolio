@@ -1,9 +1,8 @@
 import Article from "./Article";
-import { ArticlesContainer } from "./Articles.styles";
+import { ArticleLink, ArticlesContainer } from "./Articles.styles";
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import Link from "next/link";
 
 const articlesDirectory = path.join(process.cwd(), "content/blog");
 
@@ -34,12 +33,12 @@ const Articles = () => {
   return (
     <ArticlesContainer>
       {posts.map((post) => (
-        <Link href={`/blog/${post.slug}`} key={post.slug}>
+        <ArticleLink href={`/blog/${post.slug}`} key={post.slug}>
           <Article
             title={post.data.title}
             date={new Date(post.data.date).toLocaleDateString()}
           />
-        </Link>
+        </ArticleLink>
       ))}
     </ArticlesContainer>
   );
