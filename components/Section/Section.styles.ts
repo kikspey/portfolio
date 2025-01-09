@@ -39,6 +39,10 @@ export const Card = styled.div`
     margin-bottom: 1rem;
   }
 
+  &:hover {
+    filter: brightness(0.95);
+  }
+
   &:active {
     transform: scale(0.98);
   }
