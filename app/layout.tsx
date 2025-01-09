@@ -12,6 +12,27 @@ const geistSans = Figtree({
 export const metadata: Metadata = {
   title: "XRA",
   description: "Kilian Peyron's portfolio",
+  openGraph: {
+    title: "XRA",
+    description: "Kilian Peyron's portfolio",
+    url: "https://xra.fr",
+    siteName: "XRA",
+    images: [
+      {
+        url: "https://cdn.xra.fr/xra/xra-meta-banner.avif",
+        width: 800,
+        height: 600,
+        alt: "Kilian Peyron's portfolio",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "XRA",
+    description: "Kilian Peyron's portfolio",
+    images: ["https://cdn.xra.fr/xra/xra-meta-banner.avif"],
+  },
 };
 
 export default function RootLayout({
