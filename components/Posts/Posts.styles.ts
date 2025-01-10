@@ -1,0 +1,31 @@
+"use client";
+
+import styled from "styled-components";
+
+export const PostContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+`;
+
+export const PostMetadata = styled.div`
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--grey);
+`;
+
+export const PostTitle = styled.h1`
+  margin-top: 1rem;
+`;
+
+export const PostDate = styled.p`
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  font-weight: 500;
+  font-size: 0.9rem;
+`;
+
+export const PostContent = styled.div`
+  margin-top: 2rem;
+`;
