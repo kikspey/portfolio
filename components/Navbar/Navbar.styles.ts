@@ -19,9 +19,21 @@ export const NavTitle = styled.div`
   position: relative;
 `;
 
+export const NavLogo = styled.div`
+  position: relative;
+  display: flex;
+  width: 9rem;
+
+  svg {
+    g {
+      fill: var(--main-button);
+    }
+  }
+`;
+
 export const NavbarLinks = styled.ul`
   display: flex;
-  gap: .7rem;
+  gap: 0.7rem;
   margin-left: auto;
   list-style: none;
 `;
