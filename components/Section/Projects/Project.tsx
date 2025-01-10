@@ -1,15 +1,16 @@
 import { cdn } from "@/app/config";
-import {
-  ProjectChevronIcon,
-  ProjectContainer,
-  ProjectContent,
-  ProjectDescription,
-  ProjectImage,
-  ProjectLink,
-  ProjectTitle,
-} from "./Projects.styles";
+
 import { ChevronRight } from "lucide-react";
 import Image from "next/image";
+import {
+  Card,
+  CardChevronIcon,
+  CardContent,
+  CardDescription,
+  CardImage,
+  CardLink,
+  CardTitle,
+} from "../Section.styles";
 
 interface ProjectProps {
   title: string;
@@ -20,25 +21,25 @@ interface ProjectProps {
 
 const Project = (props: ProjectProps) => {
   return (
-    <ProjectLink href={props.link} passHref>
-      <ProjectContainer>
-        <ProjectImage>
+    <CardLink href={props.link} passHref>
+      <Card>
+        <CardImage>
           <Image
             src={cdn + props.img}
             alt={props.title}
             layout="fill"
             objectFit="contain"
           />
-        </ProjectImage>
-        <ProjectContent>
-          <ProjectTitle>{props.title}</ProjectTitle>
-          <ProjectDescription>{props.description}</ProjectDescription>
-        </ProjectContent>
-        <ProjectChevronIcon>
+        </CardImage>
+        <CardContent>
+          <CardTitle>{props.title}</CardTitle>
+          <CardDescription>{props.description}</CardDescription>
+        </CardContent>
+        <CardChevronIcon>
           <ChevronRight />
-        </ProjectChevronIcon>
-      </ProjectContainer>
-    </ProjectLink>
+        </CardChevronIcon>
+      </Card>
+    </CardLink>
   );
 };
 

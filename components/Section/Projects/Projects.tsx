@@ -1,9 +1,9 @@
+import { CardsContainer } from "../Section.styles";
 import Project from "./Project";
-import { ProjectsContainer } from "./Projects.styles";
 
 const Projects = () => {
   return (
-    <ProjectsContainer>
+    <CardsContainer>
       <Project
         title="Leitlearn"
         description="Leitlearn is an innovative learning platform that enhances effectiveness through daily repetition for better review."
@@ -16,7 +16,7 @@ const Projects = () => {
         img="/xra/portfolio/hyperid-portfolio.avif"
         link="https://id.xra.fr"
       />
-    </ProjectsContainer>
+    </CardsContainer>
   );
 };
 

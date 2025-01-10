@@ -17,32 +17,17 @@ export default function Home() {
           <Content
             contents={[
               <>
-                I&apos;m a third-year student pursuing a Bachelor&apos;s degree
-                in Information Technology (BUT Informatique) in Lyon, France,
-                and I&apos;m passionate about new technologies.
-              </>,
-            ]}
-          />
-        }
-      />
-      <Section
-        title="About"
-        component={
-          <Content
-            contents={[
-              <>
-                Passionate about new technologies, I am dedicated to improving
-                my skills and exploring innovative solutions. My goal is to
-                create impactful digital experiences by combining technical
-                expertise and creativity.
+                I&apos;m Kilian Peyron, a web development enthusiast since I was
+                15. Currently, I&apos;m studying Computer Science at IUT Lyon1.
+                I’m dedicated to improving my skills through my studies and
+                personal projects. My goal is to become a skilled web developer
+                who can create engaging and functional websites.
               </>,
               <>
-                My skills include web development with technologies like React,
-                PHP, SCSS, and Webpack. Additionally, I have experience in
-                programming languages such as C++, Java, and Python, gained
-                through academic projects and personal initiatives. I&apos;m
-                constantly expanding my knowledge to keep up with the
-                ever-evolving tech landscape.,
+                I have experience in web development, especially with
+                technologies like React, PHP, SCSS, and Webpack. I also have
+                knowledge in UI/UX and am becoming more interested in new web
+                technologies, like NextJS and Vercel.
               </>,
             ]}
           />

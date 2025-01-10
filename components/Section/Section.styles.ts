@@ -1,6 +1,7 @@
 "use client";
 
 import styled from "styled-components";
+import Link from "next/link";
 
 export const StyledSection = styled.section`
   display: flex;
@@ -24,6 +25,12 @@ export const CardsContainer = styled.div`
   width: 100%;
 `;
 
+export const CardChevronIcon = styled.div`
+  margin-left: auto;
+  color: var(--gray);
+  transition: all 0.2s;
+`;
+
 export const Card = styled.div`
   display: flex;
   align-items: center;
@@ -45,5 +52,49 @@ export const Card = styled.div`
 
   &:active {
     transform: scale(0.98);
+  }
+
+  &:hover {
+    ${CardChevronIcon} {
+      transform: rotate(-45deg);
+    }
+  }
+`;
+
+export const CardLink = styled(Link)`
+  &:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+`;
+
+export const CardTitle = styled.h3`
+  margin-bottom: 0.2rem;
+  font-size: 1.1rem;
+  color: var(--text-color);
+`;
+
+export const CardDescription = styled.p`
+  font-size: 0.9rem;
+  color: var(--gray);
+`;
+
+export const CardContent = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem;
+`;
+
+export const CardImage = styled.div`
+  position: relative;
+  width: 3rem;
+  min-width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: var(--background);
+  border: 1px solid var(--border);
+
+  img {
+    padding: 0.2rem;
+    border-radius: 50%;
   }
 `;
