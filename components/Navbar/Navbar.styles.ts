@@ -22,7 +22,6 @@ export const NavTitle = styled.div`
 export const NavLogo = styled.div`
   position: relative;
   display: flex;
-  width: 9rem;
 
   svg {
     g {

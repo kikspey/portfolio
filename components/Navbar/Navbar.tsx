@@ -41,12 +41,13 @@ const NavSVG = () => {
     <svg
       version="1.0"
       xmlns="http://www.w3.org/2000/svg"
+      width="9rem"
+      height="1.7rem"
       viewBox="0 0 11027.000000 2205.000000"
       preserveAspectRatio="xMidYMid meet"
     >
       <g
         transform="translate(0.000000,2205.000000) scale(0.100000,-0.100000)"
-        
         stroke="none"
       >
         <path
