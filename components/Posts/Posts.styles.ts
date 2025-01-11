@@ -27,5 +27,21 @@ export const PostDate = styled.p`
 `;
 
 export const PostContent = styled.div`
-  margin-top: 2rem;
+  margin-top: 1.5rem;
+
+  a {
+    text-decoration: underline;
+  }
+
+  h2 {
+    margin: 2rem 0 1rem;
+  }
+
+  p {
+    margin-bottom: .8rem;
+  }
+
+  ul {
+    padding-left: 1rem;
+  }
 `;
