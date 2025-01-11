@@ -23,7 +23,7 @@ const Navbar = () => {
           </Link>
         </NavbarLink>
         <NavbarLink>
-          <Link href="mailto:kilian@hhn.fr" passHref>
+          <Link href="mailto:kilian@xra.fr" passHref>
             <Button
               icon={<AtSign width={20} height={20} />}
               variant="secondary"
