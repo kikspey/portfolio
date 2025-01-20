@@ -11,10 +11,10 @@ const Projects = () => {
         link="https://leitlearn.com"
       />
       <Project
-        title="HyperID"
-        description="HyperID is a universal digital identity service that allows users to log into all projects within an ecosystem using a single account."
-        img="/xra/portfolio/hyperid-portfolio.avif"
-        link="https://id.xra.fr"
+        title="Vibi.tv"
+        description=""
+        img="/xra/portfolio/vibi-portfolio.avif"
+        link="https://vibi.tv"
       />
     </CardsContainer>
   );

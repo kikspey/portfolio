@@ -68,12 +68,12 @@ export const CardLink = styled(Link)`
 `;
 
 export const CardTitle = styled.h3`
-  margin-bottom: 0.2rem;
   font-size: 1.1rem;
   color: var(--text-color);
 `;
 
 export const CardDescription = styled.p`
+  margin-top: 0.2rem;
   font-size: 0.9rem;
   color: var(--gray);
 `;

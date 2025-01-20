@@ -52,7 +52,7 @@ export default async function Page({
 export function generateStaticParams() {
   return [
     { slug: "aberdeen-internship" },
-    { slug: "leitlearn-x-hyperid-announcement" },
+    { slug: "leitlearn-announcement" },
   ];
 }
 
