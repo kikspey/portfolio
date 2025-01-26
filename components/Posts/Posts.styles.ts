@@ -44,4 +44,8 @@ export const PostContent = styled.div`
   ul {
     padding-left: 1rem;
   }
+
+  img {
+    width: 100%;
+  }
 `;
