@@ -6,11 +6,18 @@ import { Eclipse } from "lucide-react";
 
 const Footer = () => {
   const changeTheme = () => {
-    const theme = document.documentElement.getAttribute("data-theme");
-    if (theme === "dark") {
-      document.documentElement.setAttribute("data-theme", "light");
+    const html = document.documentElement;
+    const currentTheme = html.getAttribute("data-theme");
+    if (!currentTheme) {
+      const systemDark = window.matchMedia(
+        "(prefers-color-scheme: dark)"
+      ).matches;
+      html.setAttribute("data-theme", systemDark ? "light" : "dark");
     } else {
-      document.documentElement.setAttribute("data-theme", "dark");
+      html.setAttribute(
+        "data-theme",
+        currentTheme === "dark" ? "light" : "dark"
+      );
     }
   };
 

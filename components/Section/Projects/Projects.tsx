@@ -10,12 +10,6 @@ const Projects = () => {
         img="/xra/portfolio/leitlearn-portfolio.avif"
         link="https://leitlearn.com"
       />
-      <Project
-        title="Vibi.tv"
-        description=""
-        img="/xra/portfolio/vibi-portfolio.avif"
-        link="https://vibi.tv"
-      />
     </CardsContainer>
   );
 };
