@@ -44,11 +44,11 @@ export default function Home() {
               <>
                 This portfolio was created using{" "}
                 <Link href="https://nextjs.org">NextJS</Link>,{" "}
-                <Link href="https://vercel.com">Vercel</Link>,{" "}
-                <Link href="https://mdxjs.com">MDX</Link>, and{" "}
+                <Link href="https://mdxjs.com">MDX</Link>,{" "}
                 <Link href="https://styled-components.com">
-                  Styled Components
-                </Link>
+                  Styled Components,
+                </Link>{" "}
+                and shipped with <Link href="https://vercel.com">▲ Vercel</Link>
                 .
               </>,
             ]}
