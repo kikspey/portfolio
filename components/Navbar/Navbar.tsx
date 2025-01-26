@@ -5,6 +5,8 @@ import {
   NavbarLink,
   StyledNavbar,
   NavLogo,
+  NavBanner,
+  NavContent,
 } from "./Navbar.styles";
 import { Button } from "@/ui/Button";
 import { AtSign, ScrollText } from "lucide-react";
@@ -13,25 +15,32 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <StyledNavbar>
-      <NavLogo>
-        <NavSVG />
-      </NavLogo>
-      <NavbarLinks>
-        <NavbarLink>
-          <Link href="https://read.cv/kilianpeyron" passHref>
-            <Button icon={<ScrollText width={20} height={20} />}>CV</Button>
-          </Link>
-        </NavbarLink>
-        <NavbarLink>
-          <Link href="mailto:kilian@xra.fr" passHref>
-            <Button
-              icon={<AtSign width={20} height={20} />}
-              variant="secondary"
-              size="icon"
-            />
-          </Link>
-        </NavbarLink>
-      </NavbarLinks>
+      <Link href={"/blog/leitlearn-announcement"}>
+        <NavBanner background="#039BF9" border="#0083d2">
+          Leitlearn Next announcement
+        </NavBanner>
+      </Link>
+      <NavContent>
+        <NavLogo>
+          <NavSVG />
+        </NavLogo>
+        <NavbarLinks>
+          <NavbarLink>
+            <Link href="https://read.cv/kilianpeyron" passHref>
+              <Button icon={<ScrollText width={20} height={20} />}>CV</Button>
+            </Link>
+          </NavbarLink>
+          <NavbarLink>
+            <Link href="mailto:kilian@xra.fr" passHref>
+              <Button
+                icon={<AtSign width={20} height={20} />}
+                variant="secondary"
+                size="icon"
+              />
+            </Link>
+          </NavbarLink>
+        </NavbarLinks>
+      </NavContent>
     </StyledNavbar>
   );
 };
