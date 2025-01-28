@@ -13,11 +13,16 @@ import { AtSign, ScrollText } from "lucide-react";
 import Link from "next/link";
 
 const Navbar = () => {
+  const banner = {
+    title: "Leitlearn Next announcement",
+    link: "/blog/leitlearn-announcement",
+  };
+
   return (
     <StyledNavbar>
-      <Link href={"/blog/leitlearn-announcement"}>
+      <Link href={banner.link}>
         <NavBanner background="#039BF9" border="#0083d2">
-          Leitlearn Next announcement
+          {banner.title}
         </NavBanner>
       </Link>
       <NavContent>
