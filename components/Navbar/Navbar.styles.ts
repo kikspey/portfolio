@@ -31,13 +31,13 @@ export const NavBanner = styled.div<NavBannerProps>`
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0.4rem 0;
-  margin-bottom: 1rem;
+  padding: 0.5rem 0;
+  margin-bottom: 1.5rem;
   width: 100%;
   background: ${(props) => props.background};
   border: 1px solid ${(props) => (props.border ? props.border : "none")};
-  border-radius: 0.2rem;
-  color: ${(props) => (props.color ? props.color : "white")};
+  border-radius: 0.5rem;
+  color: ${(props) => (props.color ? props.color : "var(--background)")};
   text-transform: capitalize;
   font-weight: 600;
   z-index: -1;

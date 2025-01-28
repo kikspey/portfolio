@@ -21,7 +21,7 @@ const Navbar = () => {
   return (
     <StyledNavbar>
       <Link href={banner.link}>
-        <NavBanner background="#039BF9" border="#0083d2">
+        <NavBanner background="var(--op-color)" border="var(--op-color)">
           {banner.title}
         </NavBanner>
       </Link>
