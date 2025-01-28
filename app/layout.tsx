@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from '@vercel/analytics/next';
 import { Figtree } from "next/font/google";
 import "./globals.css";
 import StyledComponentsRegistry from "@/lib/registry";
@@ -64,6 +65,7 @@ export default function RootLayout({
           <StyledBackground />
           <Container>{children}</Container>
         </StyledComponentsRegistry>
+        <Analytics />
       </body>
     </html>
   );
