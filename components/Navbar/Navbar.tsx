@@ -8,8 +8,8 @@ import {
   NavBanner,
   NavContent,
 } from "./Navbar.styles";
-import { Button } from "@/ui/Button";
-import { AtSign, ScrollText } from "lucide-react";
+import {Button} from "@/ui/Button";
+import {Github, ScrollText} from "lucide-react";
 import Link from "next/link";
 
 const Navbar = () => {
@@ -27,18 +27,18 @@ const Navbar = () => {
       </Link>
       <NavContent>
         <NavLogo>
-          <NavSVG />
+          <NavSVG/>
         </NavLogo>
         <NavbarLinks>
           <NavbarLink>
             <Link href="https://read.cv/kilianpeyron" passHref>
-              <Button icon={<ScrollText width={20} height={20} />}>CV</Button>
+              <Button icon={<ScrollText width={20} height={20}/>}>CV</Button>
             </Link>
           </NavbarLink>
           <NavbarLink>
-            <Link href="mailto:kilian@xra.fr" passHref>
+            <Link href="https://git.new/kpgit" passHref>
               <Button
-                icon={<AtSign width={20} height={20} />}
+                icon={<Github width={20} height={20}/>}
                 variant="secondary"
                 size="icon"
               />
