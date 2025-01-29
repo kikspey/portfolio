@@ -31,7 +31,7 @@ const Navbar = () => {
         </NavLogo>
         <NavbarLinks>
           <NavbarLink>
-            <Link href="https://read.cv/kilianpeyron" passHref>
+            <Link href="https://cdn.xra.fr/xra/portfolio/resume.pdf" passHref>
               <Button icon={<ScrollText width={20} height={20}/>}>CV</Button>
             </Link>
           </NavbarLink>
