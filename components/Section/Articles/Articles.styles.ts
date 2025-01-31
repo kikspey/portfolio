@@ -41,5 +41,4 @@ export const ArticleDate = styled.div`
   align-items: center;
   margin-left: auto;
   font-size: 1rem;
-  color: var(--gray);
 `;

@@ -75,6 +75,5 @@ export const NavbarLinks = styled.ul`
 `;
 
 export const NavbarLink = styled.li`
-  color: var(--gray);
   cursor: pointer;
 `;

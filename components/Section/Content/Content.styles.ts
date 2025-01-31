@@ -8,8 +8,6 @@ export const ContentContainer = styled.div`
 `;
 
 export const ContentPart = styled.div`
-  color: var(--gray);
-
   &:not(:last-child) {
     margin-bottom: 1rem;
   }

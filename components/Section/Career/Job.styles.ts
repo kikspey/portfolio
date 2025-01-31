@@ -4,7 +4,6 @@ import styled from "styled-components";
 import { Card } from "../Section.styles";
 
 const BaseText = styled.p`
-  color: var(--gray);
   font-size: 0.9rem;
 `;
 

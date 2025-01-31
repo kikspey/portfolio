@@ -27,7 +27,6 @@ export const CardsContainer = styled.div`
 
 export const CardChevronIcon = styled.div`
   margin-left: auto;
-  color: var(--gray);
   transition: all 0.2s;
 `;
 
@@ -75,7 +74,6 @@ export const CardTitle = styled.h3`
 export const CardDescription = styled.p`
   margin-top: 0.2rem;
   font-size: 0.9rem;
-  color: var(--gray);
 `;
 
 export const CardContent = styled.div`
