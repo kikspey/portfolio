@@ -14,10 +14,10 @@ import {Clock10, MoveLeft} from "lucide-react";
 export default async function Page({
                                        params,
                                    }: {
-    params: { slug: string; locale: string };
+    params: Promise<{ slug: string; locale: string }>;
 }) {
-    const slug = params.slug;
-    const locale = params.locale;
+    const resolvedParams = await params;
+    const {slug, locale} = resolvedParams;
 
     const {default: Post, metadata} = await import(
         `@/content/blog/${slug}.mdx`
@@ -48,21 +48,6 @@ export default async function Page({
             </PostContainer>
             <Footer/>
         </>
-    );
-}
-
-export async function generateStaticParams() {
-    const locales = ['en', 'fr', 'de', 'es'];
-    const slugs = [
-        "aberdeen-internship",
-        "leitlearn-announcement"
-    ];
-
-    return locales.flatMap(locale =>
-        slugs.map(slug => ({
-            locale,
-            slug,
-        }))
     );
 }
 
