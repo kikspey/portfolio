@@ -7,7 +7,7 @@ export default {
         greeting: {
             title: "Hi, I'm Kilian Peyron",
             bio1: 'I\'m Kilian Peyron, a web development enthusiast since I was ' +
-                '15. Currently, I&apos;m studying Computer Science at IUT Lyon1. ' +
+                '15. Currently, I\'m studying Computer Science at IUT Lyon1. ' +
                 'I\'m dedicated to improving my skills through my studies and ' +
                 'personal projects. My goal is to become a skilled web developer ' +
                 'who can create engaging and functional websites.',
