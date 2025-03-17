@@ -12,7 +12,7 @@ const Career = () => {
         company="CNRS"
         companyLogo={cdn + "/xra/portfolio/career/cnrs.avif"}
         location="Lyon, France"
-        description="I'm working on improving an MSH-LSE research project."
+        description="I'm working on the improvement and maintenance of a drone mapping project using Symfony and Vue.js at MSH-LSE."
         link="https://www.cnrs.fr/"
       />
       <Job
