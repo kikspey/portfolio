@@ -1,4 +1,4 @@
-import { cdn } from "@/app/config";
+import { cdn } from "@/app/[locale]/config";
 
 import { ChevronRight } from "lucide-react";
 import Image from "next/image";

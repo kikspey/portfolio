@@ -1,32 +1,35 @@
-import { cdn } from "@/app/config";
+import {cdn} from "@/app/[locale]/config";
 import Job from "./Job";
-import { CardsContainer } from "../Section.styles";
+import {CardsContainer} from "../Section.styles";
+import {getScopedI18n} from "@/locales/server";
 
-const Career = () => {
-  return (
-    <CardsContainer>
-      <Job
-        title="Work-Study Developer"
-        beginDate="Sep 2024"
-        endDate="Present"
-        company="CNRS"
-        companyLogo={cdn + "/xra/portfolio/career/cnrs.avif"}
-        location="Lyon, France"
-        description="I'm working on the improvement and maintenance of a drone mapping project using Symfony and Vue.js at MSH-LSE."
-        link="https://www.cnrs.fr/"
-      />
-      <Job
-        title="Student Researcher"
-        beginDate="Apr 2024"
-        endDate="Jun 2024"
-        company="Robert Gordon University"
-        companyLogo={cdn + "/xra/portfolio/career/rgu.avif"}
-        location="Aberdeen, GB"
-        description="My internship project consists of developing an AI chatbot in Python using FastAPI for the backend, integrating React JS for the front-end, and utilizing DiCE for the explanatory AI model."
-        link="https://www.rgu.ac.uk/"
-      />
-    </CardsContainer>
-  );
+const Career = async () => {
+    const t = await getScopedI18n("career");
+
+    return (
+        <CardsContainer>
+            <Job
+                title={t("cnrs.title")}
+                beginDate="Sep 2024"
+                endDate="Present"
+                company={t("cnrs.company")}
+                companyLogo={cdn + "/xra/portfolio/career/cnrs.avif"}
+                location={t("cnrs.location")}
+                description={t("cnrs.description")}
+                link="https://www.cnrs.fr/"
+            />
+            <Job
+                title={t("rgu.title")}
+                beginDate="Apr 2024"
+                endDate="Jun 2024"
+                company={t("rgu.company")}
+                companyLogo={cdn + "/xra/portfolio/career/rgu.avif"}
+                location={t("rgu.location")}
+                description={t("rgu.description")}
+                link="https://www.rgu.ac.uk/"
+            />
+        </CardsContainer>
+    );
 };
 
 export default Career;
