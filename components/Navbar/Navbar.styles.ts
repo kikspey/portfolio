@@ -38,7 +38,6 @@ export const NavBanner = styled.div<NavBannerProps>`
   border: 1px solid ${(props) => (props.border ? props.border : "none")};
   border-radius: 0.5rem;
   color: ${(props) => (props.color ? props.color : "var(--background)")};
-  text-transform: capitalize;
   font-weight: 600;
   z-index: -1;
 `;
@@ -55,17 +54,6 @@ export const NavContent = styled.div`
 export const NavTitle = styled.div`
   position: relative;
   color: var(--section-title);
-`;
-
-export const NavLogo = styled.div`
-  position: relative;
-  display: flex;
-
-  svg {
-    g {
-      fill: var(--main-button);
-    }
-  }
 `;
 
 export const NavbarLinks = styled.ul`
