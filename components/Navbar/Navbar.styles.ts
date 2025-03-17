@@ -54,6 +54,7 @@ export const NavContent = styled.div`
 
 export const NavTitle = styled.div`
   position: relative;
+  color: var(--section-title);
 `;
 
 export const NavLogo = styled.div`

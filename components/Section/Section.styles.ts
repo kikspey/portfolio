@@ -87,12 +87,11 @@ export const CardImage = styled.div`
   width: 3rem;
   min-width: 3rem;
   height: 3rem;
-  border-radius: 50%;
   background: var(--background);
   border: 1px solid var(--border);
-
+  border-radius: 0.3rem;
+    
   img {
-    padding: 0.2rem;
-    border-radius: 50%;
+    padding: 0.4rem;
   }
 `;
