@@ -14,17 +14,7 @@ npm run dev
 
 ## Adding and Modifying Blog Posts
 
-Blog posts are written in MDX format and are located in the `content/blog` directory. You can add or remove posts as needed. 
-
-Additionally, you need to manually add the slug, corresponding to the filename, to the `generateStaticParams()` function for proper association, as follows:
-```typescript
-export function generateStaticParams() {
-    return [
-        { slug: "aberdeen-internship" },
-        { slug: "leitlearn-announcement" },
-    ];
-}
-```
+Blog posts are written in MDX format and are located in the `content/blog` directory. You can add or remove posts as needed.
 
 The backend API automatically fetches all posts found in this folder.
 
@@ -34,4 +24,4 @@ You also need to export the metadata for each blog post in the MDX file. For exa
 export const metadata = { title: "My internship in Aberdeen, Scotland", date: "Jan 10, 2025", author: "Kilian Peyron", };
 ```
 
-For inquiries, please contact: kilian@xra.fr
+For inquiries, please contact: contact@kilianpeyron.com
