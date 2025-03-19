@@ -5,7 +5,7 @@ export default {
     },
     sections: {
         greeting: {
-            title: "Bonjour, je suis Kilian Peyron",
+            title: "Bonjour,",
             bio1: 'Je suis Kilian Peyron, passionné de développement web depuis mes 15 ans. ' +
                 'Actuellement en dernière année de BUT Informatique à l\'IUT Lyon 1, ' +
                 'je me prépare à intégrer un master ou une école d’ingénieur en septembre.',
