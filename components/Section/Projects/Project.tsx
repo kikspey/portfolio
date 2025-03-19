@@ -18,7 +18,7 @@ interface ProjectProps {
     description: string;
     img: string;
     link: string;
-    users?: { name: string; image: string; linkedin?: string }[];
+    users?: { name: string; image: string; }[];
 }
 
 const Project = (props: ProjectProps) => {
