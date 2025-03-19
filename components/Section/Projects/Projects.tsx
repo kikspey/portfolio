@@ -10,13 +10,13 @@ const Projects = async () => {
             <Project
                 title="Leitlearn"
                 description={t("leitlearn.description")}
-                img="/xra/portfolio/leitlearn-portfolio.avif"
+                img="/projects/leitlearn.avif"
                 link="https://leitlearn.com"
             />
             <Project
                 title="Heyhi"
                 description={t("heyhi.description")}
-                img="/xra/portfolio/heyhi-portfolio.avif"
+                img="/projects/heyhi.avif"
                 link="https://github.com/Shonned/Heyhi"
             />
         </CardsContainer>

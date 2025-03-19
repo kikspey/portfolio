@@ -1,1 +1,1 @@
-export const cdn = 'https://cdn.xra.fr';
+export const cdn = 'https://assets.6ix.fr/portfolio';
