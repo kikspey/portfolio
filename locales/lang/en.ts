@@ -6,12 +6,16 @@ export default {
     sections: {
         greeting: {
             title: "Hi, I'm Kilian Peyron",
-            bio1: 'I\'m Kilian Peyron, a web development enthusiast since I was ' +
-                '15. Currently, I\'m studying Computer Science at IUT Lyon1. ' +
-                'I\'m dedicated to improving my skills through my studies and ' +
-                'personal projects. My goal is to become a skilled web developer ' +
-                'who can create engaging and functional websites.',
-            bio2: 'I have experience in web development, especially with technologies like React, PHP, SCSS, and Webpack. I also have knowledge in UI/UX and am becoming more interested in new web technologies, like NextJS and Vercel.',
+            bio1: 'I am Kilian Peyron, passionate about web development since I was 15 years old. ' +
+                'Currently in my final year of a BUT in Computer Science at IUT Lyon 1, ' +
+                'I am preparing to enter a master’s program or an engineering school in September.',
+            bio2: 'I am actively working on improving my skills through my studies ' +
+                'and personal projects. My goal is to become a skilled web developer, ' +
+                'capable of designing high-performing, engaging, and well-optimized websites and applications.',
+            bio3: 'I have experience in web development, particularly with React, Symfony, and Tailwind, ' +
+                'as well as in UI/UX. I am interested in new web technologies such as Next.js and Vercel. ' +
+                'Additionally, I have expertise in DevOps tools like Docker and CI/CD, ' +
+                'allowing me to optimize deployment and project management.',
         },
         projects: "Projects",
         career: "Career",

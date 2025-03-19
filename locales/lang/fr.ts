@@ -6,12 +6,16 @@ export default {
     sections: {
         greeting: {
             title: "Bonjour, je suis Kilian Peyron",
-            bio1: 'Je suis Kilian Peyron, passionné de développement web depuis mes ' +
-                '15 ans. Actuellement, j\'étudie l\'informatique à l\'IUT Lyon1. ' +
-                'Je m\'investis dans l\'amélioration de mes compétences à travers mes études et ' +
-                'projets personnels. Mon objectif est de devenir un développeur web qualifié ' +
-                'capable de créer des sites web engageants et fonctionnels.',
-            bio2: 'J\'ai de l\'expérience en développement web, particulièrement avec des technologies comme React, PHP, SCSS et Webpack. J\'ai également des connaissances en UI/UX et je m\'intéresse de plus en plus aux nouvelles technologies web comme NextJS et Vercel.',
+            bio1: 'Je suis Kilian Peyron, passionné de développement web depuis mes 15 ans. ' +
+                'Actuellement en dernière année de BUT Informatique à l\'IUT Lyon 1, ' +
+                'je me prépare à intégrer un master ou une école d’ingénieur en septembre.',
+            bio2: 'Je m’investis activement dans l’amélioration de mes compétences à travers ' +
+                'mes études et mes projets personnels. Mon objectif est de devenir un développeur web qualifié, ' +
+                'capable de concevoir des sites et applications performants, engageants et bien optimisés.',
+            bio3: 'J’ai de l’expérience en développement web, notamment avec React, Symfony et Tailwind, ' +
+                'ainsi qu’en UI/UX. Je m’intéresse aux nouvelles technologies web comme Next.js et Vercel. ' +
+                'Par ailleurs, je maîtrise des outils DevOps tels que Docker et CI/CD, ' +
+                'ce qui me permet d’optimiser le déploiement et la gestion des projets.',
         },
         projects: "Projets",
         career: "Parcours",

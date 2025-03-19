@@ -6,12 +6,16 @@ export default {
     sections: {
         greeting: {
             title: "Hallo, ich bin Kilian Peyron",
-            bio1: 'Ich bin Kilian Peyron, ein Webentwicklungs-Enthusiast seit ich ' +
-                '15 Jahre alt bin. Derzeit studiere ich Informatik an der IUT Lyon1. ' +
-                'Ich widme mich der Verbesserung meiner Fähigkeiten durch mein Studium und ' +
-                'persönliche Projekte. Mein Ziel ist es, ein qualifizierter Webentwickler zu werden, ' +
-                'der ansprechende und funktionale Websites erstellen kann.',
-            bio2: 'Ich habe Erfahrung in der Webentwicklung, insbesondere mit Technologien wie React, PHP, SCSS und Webpack. Ich habe auch Kenntnisse in UI/UX und interessiere mich zunehmend für neue Webtechnologien wie NextJS und Vercel.',
+            bio1: 'Ich bin Kilian Peyron und begeistere mich seit meinem 15. Lebensjahr für Webentwicklung. ' +
+                'Derzeit befinde ich mich im letzten Jahr meines BUT-Studiums in Informatik an der IUT Lyon 1 ' +
+                'und bereite mich darauf vor, im September einen Masterstudiengang oder eine Ingenieurschule zu beginnen.',
+            bio2: 'Ich arbeite aktiv daran, meine Fähigkeiten durch mein Studium ' +
+                'und persönliche Projekte zu verbessern. Mein Ziel ist es, ein qualifizierter Webentwickler zu werden, ' +
+                'der leistungsstarke, ansprechende und gut optimierte Websites und Anwendungen entwerfen kann.',
+            bio3: 'Ich habe Erfahrung in der Webentwicklung, insbesondere mit React, Symfony und Tailwind, ' +
+                'sowie in UI/UX. Ich interessiere mich für neue Webtechnologien wie Next.js und Vercel. ' +
+                'Außerdem beherrsche ich DevOps-Tools wie Docker und CI/CD, ' +
+                'die es mir ermöglichen, die Bereitstellung und Verwaltung von Projekten zu optimieren.',
         },
         projects: "Projekte",
         career: "Karriere",
