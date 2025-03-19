@@ -11,7 +11,7 @@ export default {
                 'je me prépare à intégrer un master ou une école d’ingénieur en septembre.',
             bio2: 'Je m’investis activement dans l’amélioration de mes compétences à travers ' +
                 'mes études et mes projets personnels. Mon objectif est de devenir un développeur web qualifié, ' +
-                'capable de concevoir des sites et applications performants, engageants et bien optimisés.',
+                'capable de concevoir des sites et applications performants, et optimisés.',
             bio3: 'J’ai de l’expérience en développement web, notamment avec React, Symfony et Tailwind, ' +
                 'ainsi qu’en UI/UX. Je m’intéresse aux nouvelles technologies web comme Next.js et Vercel. ' +
                 'Par ailleurs, je maîtrise des outils DevOps tels que Docker et CI/CD, ' +
