@@ -6,12 +6,16 @@ export default {
     sections: {
         greeting: {
             title: "Hola, soy Kilian Peyron",
-            bio1: 'Soy Kilian Peyron, un entusiasta del desarrollo web desde los ' +
-                '15 años. Actualmente, estudio Informática en el IUT Lyon1. ' +
-                'Me dedico a mejorar mis habilidades a través de mis estudios y ' +
-                'proyectos personales. Mi objetivo es convertirme en un desarrollador web competente ' +
-                'capaz de crear sitios web atractivos y funcionales.',
-            bio2: 'Tengo experiencia en desarrollo web, especialmente con tecnologías como React, PHP, SCSS y Webpack. También tengo conocimientos en UI/UX y estoy cada vez más interesado en nuevas tecnologías web, como NextJS y Vercel.',
+            bio1: 'Soy Kilian Peyron, apasionado por el desarrollo web desde los 15 años. ' +
+                'Actualmente estoy en mi último año de BUT en Informática en el IUT Lyon 1, ' +
+                'y me estoy preparando para ingresar a un máster o a una escuela de ingeniería en septiembre.',
+            bio2: 'Trabajo activamente en mejorar mis habilidades a través de mis estudios ' +
+                'y proyectos personales. Mi objetivo es convertirme en un desarrollador web cualificado, ' +
+                'capaz de crear sitios y aplicaciones eficientes, atractivos y bien optimizados.',
+            bio3: 'Tengo experiencia en desarrollo web, especialmente con React, Symfony y Tailwind, ' +
+                'así como en UI/UX. Me interesan las nuevas tecnologías web como Next.js y Vercel. ' +
+                'Además, domino herramientas DevOps como Docker y CI/CD, ' +
+                'lo que me permite optimizar la implementación y la gestión de proyectos.',
         },
         projects: "Proyectos",
         career: "Trayectoria",
@@ -22,6 +26,7 @@ export default {
         }
     },
     career: {
+        today: "Hoy",
         cnrs: {
             title: "Desarrollador en Formación Dual",
             company: "CNRS",
@@ -41,6 +46,9 @@ export default {
         },
         heyhi: {
             description: "Heyhi es un chatbot que utiliza un modelo explicativo con DiCE para determinar si una solicitud será aceptada y proporciona la información necesaria para aumentar las posibilidades de aceptación."
+        },
+        leitlearnLegacy: {
+            description: "Leitlearn (Legacy) es la primera versión de Leitlearn, una plataforma de aprendizaje que fue abandonada en favor de la versión actual."
         }
     }
 } as const

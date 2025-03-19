@@ -25,6 +25,9 @@ export default async function Home() {
                             <>
                                 {sectionT('greeting.bio2')}
                             </>,
+                            <>
+                                {sectionT('greeting.bio3')}
+                            </>,
                         ]}
                     />
                 }
