@@ -22,6 +22,7 @@ export default {
         }
     },
     career: {
+        today: "Hoy",
         cnrs: {
             title: "Desarrollador en Formación Dual",
             company: "CNRS",
@@ -41,6 +42,9 @@ export default {
         },
         heyhi: {
             description: "Heyhi es un chatbot que utiliza un modelo explicativo con DiCE para determinar si una solicitud será aceptada y proporciona la información necesaria para aumentar las posibilidades de aceptación."
+        },
+        leitlearnLegacy: {
+            description: "Leitlearn (Legacy) es la primera versión de Leitlearn, una plataforma de aprendizaje que fue abandonada en favor de la versión actual."
         }
     }
 } as const

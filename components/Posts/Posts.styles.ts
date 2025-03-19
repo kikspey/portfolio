@@ -54,5 +54,6 @@ export const PostContent = styled.div`
 
     img {
         width: 100%;
+        border-radius: 0.3rem;
     }
 `;

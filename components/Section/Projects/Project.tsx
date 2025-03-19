@@ -23,7 +23,7 @@ interface ProjectProps {
 
 const Project = (props: ProjectProps) => {
     return (
-        <CardLink href={props.link} passHref>
+        <CardLink href={props.link} target={"_blank"} passHref>
             <Card>
                 <CardImage>
                     <Image
