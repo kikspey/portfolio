@@ -38,6 +38,11 @@ export default async function Page({
                             Back
                         </Button>
                     </Link>
+                    <PostTitle>{metadata.title}</PostTitle>
+                    <PostDate>
+                        <Clock10 width={16}/>
+                        {metadata.date}
+                    </PostDate>
                     <PostAuthors>
                         {metadata.author.map((author: {
                             name: string;
@@ -56,11 +61,6 @@ export default async function Page({
                             </Link>
                         ))}
                     </PostAuthors>
-                    <PostTitle>{metadata.title}</PostTitle>
-                    <PostDate>
-                        <Clock10 width={16}/>
-                        {metadata.date}
-                    </PostDate>
                 </PostMetadata>
                 <PostContent>
                     <Post/>

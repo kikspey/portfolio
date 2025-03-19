@@ -108,7 +108,7 @@ export const CardUser = styled.div`
     align-items: center;
     margin-right: -0.5rem;
     background: var(--foreground);
-    border: 1px solid var(--foreground);
+    border: 2px solid var(--foreground);
     border-radius: 50%;
     pointer-events: none;
     overflow: hidden;
