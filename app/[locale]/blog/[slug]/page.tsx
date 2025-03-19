@@ -5,11 +5,13 @@ import {
     PostMetadata,
     PostDate,
     PostTitle,
-    PostContent,
+    PostContent, PostAuthors, PostAuthor,
 } from "@/components/Posts/Posts.styles";
 import Link from "next/link";
 import {Button} from "@/ui/Button";
 import {Clock10, MoveLeft} from "lucide-react";
+import {cdn} from "@/app/[locale]/config";
+import Image from "next/image";
 
 export default async function Page({
                                        params,
@@ -41,6 +43,24 @@ export default async function Page({
                         <Clock10 width={16}/>
                         {metadata.date}
                     </PostDate>
+                    <PostAuthors>
+                        {metadata.author.map((author: {
+                            name: string;
+                            image: string;
+                            link: string;
+                        }) => (
+                            <Link href={author.link} key={author.link} target="_blank" passHref>
+                                <PostAuthor>
+                                    <Image
+                                        src={cdn + author.image}
+                                        alt={author.name}
+                                        width={35}
+                                        height={35}
+                                    />
+                                </PostAuthor>
+                            </Link>
+                        ))}
+                    </PostAuthors>
                 </PostMetadata>
                 <PostContent>
                     <Post/>

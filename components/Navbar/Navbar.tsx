@@ -9,6 +9,7 @@ import {Button} from "@/ui/Button";
 import {Github, ScrollText} from "lucide-react";
 import Link from "next/link";
 import {getScopedI18n} from "@/locales/server";
+import {cdn} from "@/app/[locale]/config";
 
 const Navbar = async () => {
     const t = await getScopedI18n('navbar');
@@ -31,7 +32,7 @@ const Navbar = async () => {
                 </NavTitle>
                 <NavbarLinks>
                     <NavbarLink>
-                        <Link href="https://cdn.xra.fr/xra/portfolio/resume.pdf" passHref>
+                        <Link href={cdn + "/resume.pdf"} passHref>
                             <Button icon={<ScrollText width={20} height={20}/>}>CV</Button>
                         </Link>
                     </NavbarLink>

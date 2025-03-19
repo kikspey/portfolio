@@ -13,7 +13,7 @@ const Career = async () => {
                 beginDate="Sep 2024"
                 endDate="Present"
                 company={t("cnrs.company")}
-                companyLogo={cdn + "/xra/portfolio/career/cnrs.avif"}
+                companyLogo={cdn + "/career/cnrs.avif"}
                 location={t("cnrs.location")}
                 description={t("cnrs.description")}
                 link="https://www.cnrs.fr/"
@@ -23,7 +23,7 @@ const Career = async () => {
                 beginDate="Apr 2024"
                 endDate="Jun 2024"
                 company={t("rgu.company")}
-                companyLogo={cdn + "/xra/portfolio/career/rgu.avif"}
+                companyLogo={cdn + "/career/rgu.avif"}
                 location={t("rgu.location")}
                 description={t("rgu.description")}
                 link="https://www.rgu.ac.uk/"

@@ -32,12 +32,15 @@ export default {
             title: "Studentischer Forscher",
             company: "Robert Gordon Universität",
             location: "Aberdeen, GB",
-            description: "Mein Praktikumsprojekt besteht aus der Entwicklung eines KI-Chatbots in Python mit FastAPI für das Backend, React JS für das Frontend und DiCE für das erklärbare KI-Modell."
+            description: "Mein Praktikumsprojekt bestand darin, Heyhi zu entwickeln, einen KI-Chatbot in Python, der FastAPI für das Backend, React JS für das Frontend und DiCE für das erklärbare KI-Modell verwendet."
         }
     },
     projects: {
         leitlearn: {
             description: "Leitlearn ist eine innovative Lernplattform, die durch tägliche Wiederholung die Effektivität für bessere Prüfungsvorbereitung steigert."
+        },
+        heyhi: {
+            description: "Heyhi ist ein Chatbot, der ein erklärbares Modell mit DiCE verwendet, um zu bestimmen, ob eine Anfrage akzeptiert wird, und die notwendigen Informationen bereitstellt, um die Chancen auf Akzeptanz zu erhöhen."
         }
     }
 } as const
