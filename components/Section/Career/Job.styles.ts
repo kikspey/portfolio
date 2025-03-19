@@ -8,7 +8,6 @@ const BaseText = styled.p`
 `;
 
 export const JobContainer = styled(Card)`
-  align-items: flex-start;
 `;
 
 export const JobDate = styled(BaseText)``;

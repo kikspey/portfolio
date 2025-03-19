@@ -12,6 +12,10 @@ const Projects = async () => {
                 description={t("leitlearn.description")}
                 img="/projects/leitlearn.avif"
                 link="https://leitlearn.com"
+                users={[
+                    {name: "Kilian Peyron", image: "/users/1726908516601.avif", linkedin: "https://linkedin.com/in/user1"},
+                    {name: "Aiman Manchout", image: "/users/1722035304181.avif", linkedin: "https://linkedin.com/in/user2"}
+                ]}
             />
             <Project
                 title="Heyhi"
