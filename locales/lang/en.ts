@@ -32,12 +32,15 @@ export default {
             title: "Student Researcher",
             company: "Robert Gordon University",
             location: "Aberdeen, GB",
-            description: "My internship project consists of developing an AI chatbot in Python using FastAPI for the backend, integrating React JS for the front-end, and utilizing DiCE for the explanatory AI model."
+            description: "My internship project consisted of developing Heyhi, an AI chatbot in Python using FastAPI for the backend, React JS for the frontend, and DiCE for the explainable AI model."
         }
     },
     projects: {
         leitlearn: {
             description: "Leitlearn is an innovative learning platform that enhances effectiveness through daily repetition for better review."
+        },
+        heyhi: {
+            description: "Heyhi is a chatbot that uses an explanatory model with DiCE to determine if a request will be accepted and provides the necessary information to increase the chances of acceptance."
         }
     }
 } as const

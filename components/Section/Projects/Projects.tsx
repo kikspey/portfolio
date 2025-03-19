@@ -13,6 +13,12 @@ const Projects = async () => {
                 img="/xra/portfolio/leitlearn-portfolio.avif"
                 link="https://leitlearn.com"
             />
+            <Project
+                title="Heyhi"
+                description={t("heyhi.description")}
+                img="/xra/portfolio/heyhi-portfolio.avif"
+                link="https://github.com/Shonned/Heyhi"
+            />
         </CardsContainer>
     );
 };

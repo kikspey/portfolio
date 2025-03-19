@@ -32,12 +32,15 @@ export default {
             title: "Investigador Estudiante",
             company: "Universidad Robert Gordon",
             location: "Aberdeen, GB",
-            description: "Mi proyecto de prácticas consiste en desarrollar un chatbot de IA en Python utilizando FastAPI para el backend, React JS para el frontend y DiCE para el modelo de IA explicativa."
+            description: "Mi proyecto de prácticas consistió en desarrollar Heyhi, un chatbot IA en Python utilizando FastAPI para el backend, React JS para el frontend y DiCE para el modelo de IA explicativa."
         }
     },
     projects: {
         leitlearn: {
             description: "Leitlearn es una plataforma de aprendizaje innovadora que mejora la eficacia mediante la repetición diaria para un mejor repaso."
+        },
+        heyhi: {
+            description: "Heyhi es un chatbot que utiliza un modelo explicativo con DiCE para determinar si una solicitud será aceptada y proporciona la información necesaria para aumentar las posibilidades de aceptación."
         }
     }
 } as const
