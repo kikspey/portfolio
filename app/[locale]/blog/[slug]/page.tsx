@@ -21,9 +21,15 @@ export default async function Page({
     const resolvedParams = await params;
     const {slug, locale} = resolvedParams;
 
-    const {default: Post, metadata} = await import(
-        `@/content/blog/${slug}.mdx`
-        );
+    let Post, metadata;
+    try {
+        ({default: Post, metadata} = await import(
+            `@/content/blog/${slug}.mdx`
+            ));
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    } catch (error) {
+        return;
+    }
 
     return (
         <>
