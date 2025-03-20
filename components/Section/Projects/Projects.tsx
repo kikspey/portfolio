@@ -17,7 +17,7 @@ const Projects = async () => {
             description: t("leitlearn.description"),
             img: "/projects/leitlearn.avif",
             link: "https://leitlearn.com",
-            users: [users.kilian, users.aiman]
+            users: [users.kilian, users.leo, users.aiman]
         },
         {
             title: "Heyhi",
