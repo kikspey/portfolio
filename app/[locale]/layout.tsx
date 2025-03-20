@@ -41,8 +41,6 @@ export const metadata: Metadata = {
     applicationName: "Kilian Peyron Portfolio",
     keywords: ["Kilian Peyron", "portfolio", "web development", "React", "NextJS"],
     generator: "Next.js",
-    colorScheme: "light dark",
-    themeColor: "#ffffff",
     formatDetection: {
         telephone: false,
         address: false,
