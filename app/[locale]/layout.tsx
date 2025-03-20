@@ -1,4 +1,4 @@
-import type {Metadata} from "next";
+import type {Metadata, Viewport} from "next";
 import {Analytics} from '@vercel/analytics/next';
 import {Figtree} from "next/font/google";
 import "./globals.css";
@@ -13,18 +13,20 @@ const geistSans = Figtree({
 
 export const metadata: Metadata = {
     title: "Kilian Peyron",
-    description: "Kilian Peyron's portfolio",
+    description: "Passionate about crafting intuitive and engaging user experiences. Transforming ideas into beautifully designed and functional web products.",
+    authors: [{name: "Kilian Peyron", url: "https://www.linkedin.com/in/kilianpeyron/"}],
     openGraph: {
         title: "Kilian Peyron",
-        description: "Kilian Peyron's portfolio",
+        description: "Passionate about crafting intuitive and engaging user experiences. Transforming ideas into beautifully designed and functional web products.",
         url: "https://kilianpeyron.com",
         siteName: "Kilian Peyron",
+        locale: "en_US",
         images: [
             {
-                url: "https://cdn.xra.fr/xra/xra-meta-banner.avif",
-                width: 800,
-                height: 600,
-                alt: "Kilian Peyron's portfolio",
+                url: "https://assets.6ix.fr/portfolio/banner.jpg",
+                width: 1200,
+                height: 630,
+                alt: "Passionate about crafting intuitive and engaging user experiences. Transforming ideas into beautifully designed and functional web products.",
             },
         ],
         type: "website",
@@ -32,9 +34,40 @@ export const metadata: Metadata = {
     twitter: {
         card: "summary_large_image",
         title: "Kilian Peyron",
-        description: "Kilian Peyron's portfolio",
-        images: ["https://cdn.xra.fr/xra/xra-meta-banner.avif"],
+        description: "Passionate about crafting intuitive and engaging user experiences. Transforming ideas into beautifully designed and functional web products.",
+        images: ["https://assets.6ix.fr/portfolio/banner.jpg"],
     },
+    robots: "index, follow",
+    applicationName: "Kilian Peyron Portfolio",
+    keywords: ["Kilian Peyron", "portfolio", "web development", "React", "NextJS"],
+    generator: "Next.js",
+    colorScheme: "light dark",
+    themeColor: "#ffffff",
+    formatDetection: {
+        telephone: false,
+        address: false,
+        email: false,
+    },
+    alternates: {
+        canonical: "https://kilianpeyron.com",
+        languages: {
+            'en-US': 'https://kilianpeyron.com/en',
+            'de-DE': 'https://kilianpeyron.com/de',
+            'fr-FR': 'https://kilianpeyron.com/fr',
+        },
+    },
+    icons: {
+        icon: [
+            {url: "/favicon-96x96.png", type: "image/png", sizes: "96x96"},
+            {url: "/favicon.svg", type: "image/svg+xml"},
+            {url: "/favicon.ico"},
+        ],
+    },
+};
+
+export const viewport: Viewport = {
+    colorScheme: "light dark",
+    themeColor: "#ffffff",
 };
 
 export default async function RootLayout({
@@ -49,14 +82,6 @@ export default async function RootLayout({
     return (
         <html lang="en">
         <head>
-            <link
-                rel="icon"
-                type="image/png"
-                href="/favicon-96x96.png"
-                sizes="96x96"
-            />
-            <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
-            <link rel="shortcut icon" href="/favicon.ico"/>
             <link
                 rel="apple-touch-icon"
                 sizes="180x180"
