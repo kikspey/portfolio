@@ -23,7 +23,7 @@ const Projects = async () => {
             title: "Datadrone",
             description: t("datadrone.description"),
             img: "/projects/datadrone.avif",
-            link: "https://www.msh-lse.fr/",
+            link: "/blog/datadrone-project",
             users: [users.kilian]
         },
         {
