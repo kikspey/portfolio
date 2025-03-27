@@ -20,6 +20,13 @@ const Projects = async () => {
             users: [users.kilian, users.leo, users.aiman]
         },
         {
+            title: "Datadrone",
+            description: t("datadrone.description"),
+            img: "/projects/datadrone.avif",
+            link: "/blog/datadrone-project",
+            users: [users.kilian]
+        },
+        {
             title: "Heyhi",
             description: t("heyhi.description"),
             img: "/projects/heyhi.avif",

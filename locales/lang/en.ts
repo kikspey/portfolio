@@ -31,7 +31,7 @@ export default {
             title: "Work-Study Developer",
             company: "CNRS",
             location: "Lyon, France",
-            description: "I'm working on the improvement and maintenance of a drone mapping project using Symfony and Vue.js at MSH-LSE."
+            description: "I'm working on the Datadrone project at MSH-LSE, collaborating with researchers, focusing on the improvement and maintenance of a drone mapping system using Symfony and Vue.js."
         },
         rgu: {
             title: "Student Researcher",
@@ -43,6 +43,9 @@ export default {
     projects: {
         leitlearn: {
             description: "Leitlearn is an innovative learning platform that enhances effectiveness through daily repetition for better review."
+        },
+        datadrone: {
+            description: "Datadrone is a research project dedicated to collecting, archiving, and exploiting multi-sensor data (LiDAR, multispectral, thermal) from drones."
         },
         heyhi: {
             description: "Heyhi is a chatbot that uses an explanatory model with DiCE to determine if a request will be accepted and provides the necessary information to increase the chances of acceptance."

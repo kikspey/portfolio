@@ -31,7 +31,7 @@ export default {
             title: "Développeur en Alternance",
             company: "CNRS",
             location: "Lyon, France",
-            description: "Je travaille sur l'amélioration et la maintenance d'un projet de cartographie par drone utilisant Symfony et Vue.js à la MSH-LSE."
+            description: "Je travaille sur le projet Datadrone à la MSH-LSE, en collaboration avec des chercheurs, en me concentrant sur l’amélioration et la maintenance d’un système de cartographie par drone utilisant Symfony et Vue.js."
         },
         rgu: {
             title: "Étudiant Chercheur",
@@ -43,6 +43,9 @@ export default {
     projects: {
         leitlearn: {
             description: "Leitlearn est une plateforme d'apprentissage innovante qui améliore l'efficacité grâce à la répétition quotidienne pour une meilleure révision."
+        },
+        datadrone: {
+            description: "Datadrone est un projet de recherche dédié à la collecte, l’archivage et l’exploitation de données multi-capteurs (LiDAR, multispectral, thermique) issues de drones."
         },
         heyhi: {
             description: "Heyhi est un chatbot qui utilise un modèle explicatif avec DiCE pour déterminer si une requête sera acceptée et fournit les informations nécessaires pour en augmenter les chances d'acceptation."
