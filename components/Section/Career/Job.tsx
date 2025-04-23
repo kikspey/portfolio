@@ -23,7 +23,7 @@ interface JobProps {
 
 const Job = (props: JobProps) => {
   return (
-    <CardLink href={props.link} target={"_blank"} passHref>
+    <CardLink href={props.link} passHref>
       <JobContainer>
         <CardImage>
           <Image
