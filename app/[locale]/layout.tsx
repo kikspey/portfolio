@@ -87,7 +87,6 @@ export default async function RootLayout({
             />
             <meta name="apple-mobile-web-app-title" content="Kilian Peyron"/>
             <link rel="manifest" href="/site.webmanifest"/>
-            <title>Kilian Peyron</title>
         </head>
         <body className={`${geistSans.variable}`}>
         <StyledComponentsRegistry>
