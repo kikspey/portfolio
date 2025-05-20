@@ -56,4 +56,8 @@ export const PostContent = styled.div`
         width: 100%;
         border-radius: 0.3rem;
     }
+
+    em {
+        font-style: italic;
+    }
 `;
