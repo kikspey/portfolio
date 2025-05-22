@@ -16,7 +16,7 @@ const Navbar = async () => {
 
     const banner = {
         title: t("bannerTitle"),
-        link: "/blog/leitlearn-announcement",
+        link: "https://leitlearn.com",
     };
 
     return (
