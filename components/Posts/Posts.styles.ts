@@ -58,6 +58,7 @@ export const PostContent = styled.div`
     }
 
     em {
+        font-size: 0.9rem;
         font-style: italic;
     }
 `;

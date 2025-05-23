@@ -1,7 +1,7 @@
 export default {
     hello: 'Hallo',
     navbar: {
-        bannerTitle: "Leitlearn ist verfügbar !",
+        bannerTitle: "Leitlearn Beta ist verfügbar !",
     },
     sections: {
         greeting: {
