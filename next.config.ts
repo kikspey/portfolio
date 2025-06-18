@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],
   images: {
-    domains: ['dos7gbww4hber.cloudfront.net'],
+    domains: ['static-website.vubuo.net'],
   },
   compiler: {
     styledComponents: true,

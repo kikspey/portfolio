@@ -1,1 +1,1 @@
-export const cdn = 'https://dos7gbww4hber.cloudfront.net/portoflio';
+export const cdn = 'https://static-website.vubuo.net/portfolio';
