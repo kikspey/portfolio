@@ -5,6 +5,7 @@ import "./globals.css";
 import StyledComponentsRegistry from "@/lib/registry";
 import {Container, StyledBackground} from "./layout.styles";
 import {Providers} from "@/app/[locale]/providers";
+import { cdn } from "./config";
 
 const geistSans = Figtree({
     variable: "--font-figtree-sans",
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
         locale: "en_US",
         images: [
             {
-                url: "https://assets.6ix.fr/portfolio/banner.jpg",
+                url: `${cdn}/banner.jpg`,
                 width: 1200,
                 height: 630,
                 alt: "Passionate about crafting intuitive and engaging user experiences. Transforming ideas into beautifully designed and functional web products.",
@@ -35,7 +36,7 @@ export const metadata: Metadata = {
         card: "summary_large_image",
         title: "Kilian Peyron",
         description: "Passionate about crafting intuitive and engaging user experiences. Transforming ideas into beautifully designed and functional web products.",
-        images: ["https://assets.6ix.fr/portfolio/banner.jpg"],
+        images: [`${cdn}/banner.jpg`],
     },
     robots: "index, follow",
     applicationName: "Kilian Peyron Portfolio",

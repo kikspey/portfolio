@@ -1,1 +1,1 @@
-export const cdn = 'https://assets.6ix.fr/portfolio';
+export const cdn = 'https://static-website.vubuo.net/kp';
