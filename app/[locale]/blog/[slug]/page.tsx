@@ -32,7 +32,7 @@ export async function generateMetadata({
   const title = metadata?.title || "Article";
   const description = metadata?.description || "";
   const ogImage =
-    metadata?.image || "https://assets.6ix.fr/portfolio/banner.jpg";
+    metadata?.image || `${cdn}/banner.jpg`;
   const url = `https://kilianpeyron.com/${locale}/blog/${slug}`;
 
   return {

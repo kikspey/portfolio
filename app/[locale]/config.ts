@@ -1,1 +1,1 @@
-export const cdn = 'https://static-website.vubuo.net/portfolio';
+export const cdn = 'https://static-website.vubuo.net/kp';
