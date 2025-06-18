@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],
   images: {
-    domains: ['assets.6ix.fr'],
+    domains: ['dos7gbww4hber.cloudfront.net'],
   },
   compiler: {
     styledComponents: true,
