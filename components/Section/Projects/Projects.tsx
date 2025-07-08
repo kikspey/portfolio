@@ -30,7 +30,7 @@ const Projects = async () => {
             title: "Heyhi",
             description: t("heyhi.description"),
             img: "/projects/heyhi.avif",
-            link: "https://github.com/Shonned/Heyhi",
+            link: "https://github.com/kikspey/Heyhi",
             users: [users.kilian]
         },
         {

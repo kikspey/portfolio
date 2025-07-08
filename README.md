@@ -7,7 +7,7 @@ This repository contains my portfolio, built with Next.js and shipped on Vercel.
 To get started, clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/Shonned/portfolio
+git clone https://github.com/kikspey/portfolio
 npm install
 npm run dev
 ```
