@@ -14,8 +14,6 @@ const Footer = () => {
     const lang = [
         {label: "Français", value: "fr"},
         {label: "English", value: "en"},
-        {label: "Español", value: "es"},
-        {label: "Deutsch", value: "de"},
     ];
 
     const changeTheme = () => {
