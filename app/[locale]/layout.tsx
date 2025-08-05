@@ -50,8 +50,7 @@ export const metadata: Metadata = {
     alternates: {
         canonical: "https://kilianpeyron.com",
         languages: {
-            'en-US': 'https://kilianpeyron.com/en',
-            'de-DE': 'https://kilianpeyron.com/de',
+            'en-US': 'https://kilianpeyron.com',
             'fr-FR': 'https://kilianpeyron.com/fr',
         },
     },
