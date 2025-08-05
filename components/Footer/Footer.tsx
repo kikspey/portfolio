@@ -9,13 +9,11 @@ import {useChangeLocale, useCurrentLocale} from "@/locales/client";
 const Footer = () => {
     const locale = useCurrentLocale();
     const changeLocale = useChangeLocale();
-    type SupportedLocale = "en" | "fr" | "es" | "de";
+    type SupportedLocale = "en" | "fr";
 
     const lang = [
         {label: "Français", value: "fr"},
         {label: "English", value: "en"},
-        {label: "Español", value: "es"},
-        {label: "Deutsch", value: "de"},
     ];
 
     const changeTheme = () => {

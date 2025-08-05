@@ -7,6 +7,4 @@ export const {
 } = createI18nClient({
     en: () => import('./lang/en'),
     fr: () => import('./lang/fr'),
-    es: () => import('./lang/es'),
-    de: () => import('./lang/de')
 })
