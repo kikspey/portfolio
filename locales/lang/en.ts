@@ -6,16 +6,9 @@ export default {
     sections: {
         greeting: {
             title: "Hi,",
-            bio1: 'I am Kilian Peyron, passionate about web development since I was 15 years old. ' +
-                'Currently in my final year of a BUT in Computer Science at IUT Lyon 1, ' +
-                'I am preparing to enter a master’s program or an engineering school in September.',
-            bio2: 'I am actively working on improving my skills through my studies ' +
-                'and personal projects. My goal is to become a skilled web developer, ' +
-                'capable of designing high-performing, attractive, and well-optimized websites and applications.',
-            bio3: 'I have experience in web development, particularly with React, Symfony, and Tailwind, ' +
-                'as well as in UI/UX. I am interested in new web technologies such as Next.js and Vercel. ' +
-                'Additionally, I have expertise in DevOps tools like Docker and CI/CD, ' +
-                'allowing me to optimize deployment and project management.',
+            bio1: "I’m Kilian Peyron, passionate about web development since I was 15, I recently earned my Bachelor of Technology in Computer Science from IUT Lyon 1. This fall, I’ll join Enedis as a work-study student while pursuing my engineering degree at CPE Lyon.",
+            bio2: "I design high-performance, visually appealing websites and applications with React, Symfony, and Tailwind. I’m exploring Next.js and Vercel, and I streamline my deployments using Docker and CI/CD.",
+            bio3: "In parallel, I co-founded Vubuo, an independent game studio. We’re currently developing several projects set to launch throughout 2026, blending immersive worlds with innovative art direction.",
         },
         projects: "Projects",
         career: "Career",
@@ -27,6 +20,12 @@ export default {
     },
     career: {
         today: "Today",
+        vubuo: {
+            title: "Co-Founder",
+            company: "Vubuo",
+            location: "Lyon, France",
+            description: "Vubuo creates new worlds through games, stories, and digital experiences—building original franchises and immersive universes that connect and inspire."
+        },
         cnrs: {
             title: "Work-Study Developer",
             company: "CNRS",
