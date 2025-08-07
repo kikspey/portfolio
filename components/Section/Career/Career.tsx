@@ -8,9 +8,19 @@ const Career = async () => {
 
     const jobs = [
         {
+            title: t("vubuo.title"),
+            beginDate: "Apr 2025",
+            endDate: t("today"),
+            company: t("vubuo.company"),
+            companyLogo: cdn + "/career/vubuo.avif",
+            location: t("vubuo.location"),
+            description: t("vubuo.description"),
+            link: "https://www.vubuo.com/"
+        },
+        {
             title: t("cnrs.title"),
             beginDate: "Sep 2024",
-            endDate: t('today'),
+            endDate: "Aug 2025",
             company: t("cnrs.company"),
             companyLogo: cdn + "/career/cnrs.avif",
             location: t("cnrs.location"),

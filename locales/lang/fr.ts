@@ -6,16 +6,9 @@ export default {
     sections: {
         greeting: {
             title: "Bonjour,",
-            bio1: 'Je suis Kilian Peyron, passionné de développement web depuis mes 15 ans. ' +
-                'Actuellement en dernière année de BUT Informatique à l\'IUT Lyon 1, ' +
-                'je me prépare à intégrer un master ou une école d’ingénieur en septembre.',
-            bio2: 'Je m’investis activement dans l’amélioration de mes compétences à travers ' +
-                'mes études et mes projets personnels. Mon objectif est de devenir un développeur web qualifié, ' +
-                'capable de concevoir des sites et applications performants, et optimisés.',
-            bio3: 'J’ai de l’expérience en développement web, notamment avec React, Symfony et Tailwind, ' +
-                'ainsi qu’en UI/UX. Je m’intéresse aux nouvelles technologies web comme Next.js et Vercel. ' +
-                'Par ailleurs, je maîtrise des outils DevOps tels que Docker et CI/CD, ' +
-                'ce qui me permet d’optimiser le déploiement et la gestion des projets.',
+            bio1: "Je suis Kilian Peyron, passionné par le développement web depuis mes 15 ans, j’ai récemment obtenu mon BUT Informatique à l’IUT Lyon 1. À la rentrée, j’intègre Enedis en alternance tout en préparant mon diplôme d’ingénieur à CPE Lyon.",
+            bio2: "Je conçois des sites et applications web performants et esthétiques avec React, Symfony et Tailwind. J’expérimente Next.js et Vercel, et j’optimise mes déploiements grâce à Docker et CI/CD.",
+            bio3: "En parallèle, je co-fonde Vubuo, un studio indépendant de jeux vidéo. Nous développons plusieurs projets qui sortiront courant 2026, mêlant univers immersifs et direction artistique innovante.",
         },
         projects: "Projets",
         career: "Parcours",
@@ -27,6 +20,12 @@ export default {
     },
     career: {
         today: "Aujourd'hui",
+        vubuo: {
+            title: "Co-Fondateur",
+            company: "Vubuo",
+            location: "Lyon, France",
+            description: "Vubuo crée de nouveaux mondes à travers des jeux, des histoires et des expériences numériques—construisant des franchises originales et des univers immersifs qui connectent et inspirent."
+        },
         cnrs: {
             title: "Développeur en Alternance",
             company: "CNRS",

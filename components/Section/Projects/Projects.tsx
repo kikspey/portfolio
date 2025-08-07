@@ -32,13 +32,6 @@ const Projects = async () => {
             img: "/projects/heyhi.avif",
             link: "https://github.com/kikspey/Heyhi",
             users: [users.kilian]
-        },
-        {
-            title: "Leitlearn (Legacy)",
-            description: t("leitlearnLegacy.description"),
-            img: "/projects/leitlearn-legacy.avif",
-            link: "",
-            users: [users.kilian, users.leo, users.aiman]
         }
     ];
 
