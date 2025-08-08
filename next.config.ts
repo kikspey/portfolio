@@ -5,8 +5,16 @@ const nextConfig: NextConfig = {
   /* config options here */
   pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],
   images: {
-    domains: ['static-website.vubuo.net'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'scontent-kpx-prod.0cdn.org',
+      },
+    ],
   },
+  reactStrictMode: true,
+  poweredByHeader: false,
+  compress: true,
   compiler: {
     styledComponents: true,
   },
