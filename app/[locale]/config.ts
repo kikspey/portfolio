@@ -1,1 +1,1 @@
-export const cdn = 'https://static-website.vubuo.net/kp';
+export const cdn:string = 'https://scontent-kpx-prod.0cdn.org';
