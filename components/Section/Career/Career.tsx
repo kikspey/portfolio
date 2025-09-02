@@ -8,14 +8,14 @@ const Career = async () => {
 
     const jobs = [
         {
-            title: t("vubuo.title"),
-            beginDate: "Apr 2025",
-            endDate: t("today"),
-            company: t("vubuo.company"),
-            companyLogo: cdn + "/career/vubuo.avif",
-            location: t("vubuo.location"),
-            description: t("vubuo.description"),
-            link: "https://www.vubuo.com/"
+            title: t("enedis.title"),
+            beginDate: t("today"),
+            endDate: "Aug 2028",
+            company: t("enedis.company"),
+            companyLogo: cdn + "/career/enedis.avif",
+            location: t("enedis.location"),
+            description: t("enedis.description"),
+            link: "https://www.enedis.fr/"
         },
         {
             title: t("cnrs.title"),

@@ -20,6 +20,12 @@ export default {
     },
     career: {
         today: "Aujourd'hui",
+        enedis: {
+            title: "Développeur en Alternance",
+            company: "Enedis",
+            location: "Lyon, France",
+            description: " "
+        },
         vubuo: {
             title: "Co-Fondateur",
             company: "Vubuo",
